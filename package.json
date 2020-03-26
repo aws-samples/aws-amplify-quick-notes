@@ -1,0 +1,44 @@
+{
+  "name": "quick-notes",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@aws-amplify/predictions": "^2.1.6",
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "@reach/dialog": "^0.9.1",
+    "@reach/tabs": "^0.9.1",
+    "@rebass/emotion": "^3.2.0",
+    "@rebass/forms": "^4.0.6",
+    "aws-amplify": "^2.2.6",
+    "aws-amplify-react": "^3.1.7",
+    "formik": "^2.1.4",
+    "microphone-stream": "^5.0.1",
+    "normalize.css": "^8.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.9.0",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "resourceName": "speechGeneratorc72b6c38",
+  "convertPolicyName": "speechGeneratorPolicyc72b6c38",
+  "authRoleName": {
+    "Ref": "AuthRoleName"
+  },
+  "unauthRoleName": {
+    "Ref": "UnauthRoleName"
+  },
+  "convertType": "speechGenerator",
+  "language": "en-US",
+  "voice": "Kendra",
+  "access": "auth"
+}

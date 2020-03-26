@@ -1,0 +1,7 @@
+type Note @model @auth(rules: [{ allow: owner }]) {
+  id: ID!
+  title: String!
+  text: String!
+  createdAt: String
+  updatedAt: String
+}

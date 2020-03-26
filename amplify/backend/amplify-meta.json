@@ -1,0 +1,86 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "quick-notes-dev-20190826145900-authRole",
+			"UnauthRoleArn": "arn:aws:iam::781155362072:role/quick-notes-dev-20190826145900-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::781155362072:role/quick-notes-dev-20190826145900-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "quick-notes-dev-20190826145900-deployment",
+			"UnauthRoleName": "quick-notes-dev-20190826145900-unauthRole",
+			"StackName": "quick-notes-dev-20190826145900",
+			"StackId": "arn:aws:cloudformation:us-east-1:781155362072:stack/quick-notes-dev-20190826145900/90da8c80-c833-11e9-b472-1270c4b0e9f2"
+		}
+	},
+	"auth": {
+		"quicknotes9506fafe": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/quick-notes-dev-20190826145900-deployment/amplify-cfn-templates/auth/quicknotes9506fafe-cloudformation-template.yml",
+				"logicalId": "authquicknotes9506fafe"
+			},
+			"lastPushTimeStamp": "2019-08-26T21:18:58.110Z",
+			"output": {
+				"AppClientSecret": "ugrpu426hfvke3p5dchk696i7sfp0mro3ragd12mfgs3t24jfed",
+				"UserPoolId": "us-east-1_ZuZiMUD40",
+				"AppClientIDWeb": "1fkag5kje3n9r6q7q8s84eft4q",
+				"AppClientID": "60g6ncl0tcddi0hq53tpg161d8",
+				"IdentityPoolId": "us-east-1:94b99aeb-7d34-4ac7-b38f-8e82b8c2d1dc",
+				"IdentityPoolName": "quicknotes9506fafe_identitypool_9506fafe__dev",
+				"UserPoolName": "quicknotes9506fafe_userpool_9506fafe"
+			},
+			"lastPushDirHash": "reSRvwFnPwcP5s2OgU6qqyOD/cA="
+		}
+	},
+	"api": {
+		"quicknotes": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"securityType": "AMAZON_COGNITO_USER_POOLS",
+				"GraphQLAPIIdOutput": "fsgw5f46inehpeyukx25tyeioq",
+				"GraphQLAPIEndpointOutput": "https://mnfvrymm4jfypo3v5mgekvuzse.appsync-api.us-east-1.amazonaws.com/graphql"
+			},
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/quick-notes-dev-20190826145900-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"logicalId": "apiquicknotes"
+			},
+			"lastPushTimeStamp": "2019-08-26T21:18:59.234Z",
+			"lastPushDirHash": "huk8fMcNNuW4ph/mF9JKL1HSEUU="
+		}
+	},
+	"predictions": {
+		"transcriptione65259cc": {
+			"providerPlugin": "awscloudformation",
+			"service": "Transcribe",
+			"convertType": "transcription",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/quick-notes-dev-20190826145900-deployment/amplify-cfn-templates/predictions/transcriptione65259cc-template.json",
+				"logicalId": "predictionstranscriptione65259cc"
+			},
+			"lastPushTimeStamp": "2019-08-26T21:18:58.112Z",
+			"output": {
+				"language": "en-US",
+				"region": "us-east-1"
+			},
+			"lastPushDirHash": "UxEvB0oICy2EJ7JFZKjKvEvIKAo="
+		},
+		"speechGeneratorc72b6c38": {
+			"providerPlugin": "awscloudformation",
+			"service": "Polly",
+			"convertType": "speechGenerator",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/quick-notes-dev-20190826145900-deployment/amplify-cfn-templates/predictions/speechGeneratorc72b6c38-template.json",
+				"logicalId": "predictionsspeechGeneratorc72b6c38"
+			},
+			"lastPushTimeStamp": "2019-08-26T21:18:58.113Z",
+			"output": {
+				"voice": "Justin",
+				"language": "en-US",
+				"region": "us-east-1"
+			},
+			"lastPushDirHash": "hqy/FzjEbw/RDdLL3jD/+urSqro="
+		}
+	}
+}
