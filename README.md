@@ -20,7 +20,7 @@
 
 To automatically deploy the app, click the big orange button 👇
 
-[![amplifybutton](https://oneclick.amplifyapp.com/button.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/kkemple/quick-notes)
+[![amplifybutton](https://oneclick.amplifyapp.com/button.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/aws-samples/aws-amplify-quick-notes)
 
 > If you wish to manually deploy the app, follow the instructions below.
 
@@ -29,7 +29,7 @@ To automatically deploy the app, click the big orange button 👇
 1. Clone the repo & install the dependencies
 
 ```sh
-~ git clone https://github.com/kkemple/quick-notes.git
+~ git clone https://github.com/aws-samples/aws-amplify-quick-notes.git
 ~ cd quick-notes
 ~ npm install
 ```
