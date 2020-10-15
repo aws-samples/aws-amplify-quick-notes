@@ -30,7 +30,7 @@ To automatically deploy the app, click the big orange button 👇
 
 ```sh
 ~ git clone https://github.com/aws-samples/aws-amplify-quick-notes.git
-~ cd quick-notes
+~ cd aws-amplify-quick-notes
 ~ npm install
 ```
 
