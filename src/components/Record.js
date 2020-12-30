@@ -74,7 +74,9 @@ export default props => {
     });
     const startMic = new mic();
 
-    startMic.setStream(stream);
+    startMic.setStream(stream);  
+
+    // get Buffers (Essentially a Uint8Array DataView of the same Float32 values)
     startMic.on("data", chunk => {
       var raw = mic.toRaw(chunk);
       if (raw == null) {
