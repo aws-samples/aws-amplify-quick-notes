@@ -25,7 +25,8 @@
     "websocket-extensions": "^0.1.4",
     "object-path": "^0.11.5",
     "axios": "^0.21.1",
-    "node-notifier": "^8.0.1"
+    "node-notifier": "^8.0.1",
+    "immer": "^8.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
