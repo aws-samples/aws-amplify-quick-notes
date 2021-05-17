@@ -25,7 +25,7 @@ const Title = styled("h1")`
   margin-top: 0;
   margin-bottom: 0;
   text-transform: uppercase;
-  color: #74b49b;
+  color: #DB2B06;
   font-size: 24px;
 `;
 
@@ -91,7 +91,7 @@ export default () => {
   return (
     <>
       <Header>
-        <Title>Quick Notes</Title>
+        <Title>Quick Notes with audio recording</Title>
         <SignOutButton
           onClick={() => {
             Auth.signOut().then(() => window.location.reload());
