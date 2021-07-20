@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import styled from "@emotion/styled";
 import { FaRegEdit, FaPlay, FaRegTrashAlt } from "react-icons/fa";
 import { Predictions } from "aws-amplify";

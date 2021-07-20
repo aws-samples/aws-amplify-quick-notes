@@ -13,20 +13,14 @@
     "aws-amplify": "^2.2.6",
     "aws-amplify-react": "^3.1.7",
     "formik": "^2.1.4",
-    "lodash": "^4.17.21",
     "microphone-stream": "^5.0.1",
-    "node-forge": "^0.10.0",
     "normalize.css": "^8.0.1",
     "npm-force-resolutions": "0.0.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^3.9.0",
     "react-scripts": "3.4.1",
-    "websocket-extensions": "^0.1.4",
-    "object-path": "^0.11.5",
-    "axios": "^0.21.1",
-    "node-notifier": "^8.0.1",
-    "immer": "^8.0.1"
+    "websocket-extensions": "^0.1.4"
   },
   "scripts": {
     "start": "react-scripts start",

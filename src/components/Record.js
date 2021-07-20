@@ -1,6 +1,6 @@
 /** @jsx jsx */
 
-import React, { useState } from "react";
+import { useState } from "react";
 import { API, graphqlOperation } from "aws-amplify";
 import { Predictions } from "aws-amplify";
 import { keyframes, css, jsx } from "@emotion/core";

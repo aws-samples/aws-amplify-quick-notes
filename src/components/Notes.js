@@ -53,7 +53,7 @@ export default () => {
             );
           }}
           onDelete={async () => {
-            const result = await API.graphql(
+            await API.graphql(
               graphqlOperation(deleteNote, {
                 input: {
                   id: note.id
