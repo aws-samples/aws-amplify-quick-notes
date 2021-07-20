@@ -22,10 +22,12 @@ const StyledDialogContent = styled(DialogContent)`
   margin: 24px auto;
 `;
 
-export default props => (
-  <Dialog>
+const DialogComponent = props => (
+  <Dialog aria-label="Popup">
     <StyledDialogOverlay>
-      <StyledDialogContent>{props.children}</StyledDialogContent>
+      <StyledDialogContent aria-label="Dialog">{props.children}</StyledDialogContent>
     </StyledDialogOverlay>
   </Dialog>
 );
+
+export default DialogComponent;

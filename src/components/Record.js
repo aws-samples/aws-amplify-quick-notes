@@ -1,9 +1,7 @@
-/** @jsx jsx */
-
 import { useState } from "react";
 import { API, graphqlOperation } from "aws-amplify";
 import { Predictions } from "aws-amplify";
-import { keyframes, css, jsx } from "@emotion/core";
+import { keyframes, css } from "@emotion/core";
 import styled from "@emotion/styled";
 import {
   FaMicrophone,
@@ -35,7 +33,7 @@ const pulse = keyframes`
   }
 `;
 
-export default props => {
+const RecordComponent = props => {
   const [isRecording, setIsRecording] = useState(false);
   const [showRecordingEditor, setShowRecordingEditor] = useState(false);
   const [recordingText, setRecordingText] = useState("");
@@ -162,19 +160,16 @@ export default props => {
             <FaMicrophoneAltSlash
               size={50}
               style={{ margin: "auto" }}
-              color="#f4f9f4"
             />
           ) : isRecording ? (
             <FaMicrophone
               size={50}
               style={{ margin: "auto" }}
-              color="#f4f9f4"
             />
           ) : (
             <FaMicrophoneAlt
               size={50}
               style={{ margin: "auto" }}
-              color="#f4f9f4"
             />
           )}
         </div>
@@ -194,3 +189,5 @@ export default props => {
     </Container>
   );
 };
+
+export default RecordComponent;

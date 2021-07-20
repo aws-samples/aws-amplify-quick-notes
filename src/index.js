@@ -7,6 +7,8 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "normalize.css/normalize.css";
 import "./index.css";
+import "@reach/tabs/styles.css";
+import "@reach/dialog/styles.css";
 import amplifyConfig from "./aws-exports";
 
 Amplify.configure(amplifyConfig);

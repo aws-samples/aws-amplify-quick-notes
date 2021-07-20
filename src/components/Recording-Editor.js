@@ -60,7 +60,7 @@ const Title = styled("h2")`
   color: #74b49b;
 `;
 
-export default props => (
+const RecordingEditor = props => (
   <Dialog onDismiss={props.onDismiss}>
     <Title>{props.title ? "Edit Note" : "Create Note"}</Title>
     <Formik
@@ -119,3 +119,5 @@ export default props => (
     </Formik>
   </Dialog>
 );
+
+export default RecordingEditor;

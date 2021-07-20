@@ -62,7 +62,7 @@ const Info = styled.div`
   padding: 24px;
 `;
 
-export default props => {
+const NotesComponent = props => {
   const [showEditor, setShowEditor] = useState(false);
 
   const playAudio = async () => {
@@ -120,3 +120,5 @@ export default props => {
     </Note>
   );
 };
+
+export default NotesComponent;

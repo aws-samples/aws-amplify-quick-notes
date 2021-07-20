@@ -85,7 +85,7 @@ const StyledTab = styled(Tab)`
   border-bottom: 3px solid #ffffff;
 `;
 
-export default () => {
+const Screens = () => {
   const [tabIndex, setTabIndex] = useState(0);
 
   return (
@@ -117,3 +117,5 @@ export default () => {
     </>
   );
 };
+
+export default Screens;

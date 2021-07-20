@@ -12,7 +12,7 @@ const Container = styled("div")`
   width: 100%;
 `;
 
-export default () => {
+const NotesComponent = () => {
   const [notes, setNotes] = useState([]);
 
   useEffect(() => {
@@ -68,3 +68,5 @@ export default () => {
     </Container>
   );
 };
+
+export default NotesComponent;
