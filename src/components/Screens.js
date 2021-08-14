@@ -91,7 +91,7 @@ const Screens = () => {
   return (
     <>
       <Header>
-        <Title>Quick Notes</Title>
+        <Title>Super Awesome Dugan Family Messenger</Title>
         <SignOutButton
           onClick={() => {
             Auth.signOut().then(() => window.location.reload());
